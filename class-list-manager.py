@@ -6,6 +6,9 @@ names = ["Sara", "Noura", "Lama", "Reem", "Amal", "Lama"]
 
 
 # ===== Each student adds her function BELOW this line =====
+# Written by: Alhanouf (task 1)
+def count_names(names):
+    return len(names)
 
 # Written by: Rand (task 3)
 def sort_names(names):
@@ -26,7 +29,7 @@ def main():
     print("Sorted names:", sort_names(names))
     print("Vowels in first name:", count_vowels(names[0]))
     # Each student calls her function here, for example:
-    # print("Number of names:", count_names(names))
+    print("Number of names:", count_names(names))
 
 
 main()
