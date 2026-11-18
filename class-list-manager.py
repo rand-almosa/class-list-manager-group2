@@ -8,7 +8,6 @@ names = ["Sara", "Noura", "Lama", "Reem", "Amal", "Lama"]
 # ===== Each student adds her function BELOW this line =====
 
 # Written by: Rand (task 3)
-
 def sort_names(names):
     return sorted(names)
 
