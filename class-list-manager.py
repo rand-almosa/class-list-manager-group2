@@ -10,6 +10,10 @@ names = ["Sara", "Noura", "Lama", "Reem", "Amal", "Lama"]
 def count_names(names):
     return len(names)
 
+# Written by: Renad (task 2)
+def search_name(names, name):
+    return name in names
+
 # Written by: Rand (task 3)
 def sort_names(names):
     return sorted(names)
@@ -26,6 +30,7 @@ def count_vowels(names):
 def main():
     print("Welcome to the Class List Manager!")
     print("Class list:", names)
+    print("Search for 'Sara':", search_name(names, "Sara"))
     print("Sorted names:", sort_names(names))
     print("Vowels in first name:", count_vowels(names[0]))
     # Each student calls her function here, for example:
