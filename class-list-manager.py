@@ -1,4 +1,3 @@
-
 # Class List Manager - Group 2
 
 # MIS 211 Bonus Assignment (GitHub Teamwork)
